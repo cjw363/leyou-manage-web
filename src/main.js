@@ -16,7 +16,7 @@ Vue.use(Vuetify, { theme: config.theme})
 Vue.use(MyComponent)
 Vue.prototype.$qs = qs;
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false //阻止启动生产消息，常用作指令。
 
 /* eslint-disable no-new */
 new Vue({
